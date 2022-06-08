@@ -33,5 +33,23 @@
 	번호 = ${requestScope.num}<br>
 	문구 = ${requestScope.str}<br>
 	
+	
+	번호 = <%=userVo.getNo() %><br>
+	이름 = <%=userVo.getName() %><br>
+	이메일 = <%=userVo.getEmail() %><br>
+	비밀번호 = <%=userVo.getPassword() %><br>
+	성별 = <%=userVo.getGender() %><br>
+	
+	<h3>el</h3>
+	번호 = ${userVo.no}	<br>
+	이름 = ${userVo.name}	<br>
+	이메일 = ${userVo.email}	<br>
+	비밀번호 = ${userVo.password}	<br>
+	성별 = ${userVo.gender}	<br>
+	
+	<br><br>
+	번호 = ${num}<br>
+	문구 = ${str}<br>
+	
 </body>
 </html>
